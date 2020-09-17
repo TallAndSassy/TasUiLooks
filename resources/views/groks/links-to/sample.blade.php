@@ -45,7 +45,11 @@
     </li>
 
     <li>
-{{--         App\Http\Livewire\TheModalBox::generateLinkToRaiseModal('Open Modal', 'admin/people/FlightInstructorsCreate', 'Flight Instructor',  'Cancel', 'Create')
+        <x-tas::link-to-modal
+            href="something w/o modal">
+            Modal Up
+        </x-tas::link-to-modal>
+{{--         App\Http\Livewire\TheModalBox::generateLinkToRaiseModal('Open Modal', 'admin/people/FlightInstructorsCreate', 'Flight Instructor',  'Cancel', 'Create')--}}
     </li>
 
     <li>
