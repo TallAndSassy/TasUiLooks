@@ -1,1 +1,1 @@
-<x-tas::parenthetical>(parenthetical text)</x-tas::parenthetical>
+<x-tas-ui-looks::parenthetical>(parenthetical text)</x-tas-ui-looks::parenthetical>

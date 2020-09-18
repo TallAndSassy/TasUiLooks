@@ -6,6 +6,6 @@
     <span class="text-gray-600">{{$label}}</span><span class="text-gray:400">:</span>
     <span class="text-gray-800">{{$value}}</span>
     @if($hint)
-        <x-tas::hint>{{$hint}}</x-grok::hint>
+        <x-tas-ui-looks::hint>{{$hint}}</x-grok::hint>
     @endif
 </div>

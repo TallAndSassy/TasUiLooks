@@ -1,1 +1,1 @@
-<x-tas::title>My Big Title</x-tas::title>
+<x-tas-ui-looks::title>My Big Title</x-tas-ui-looks::title>
