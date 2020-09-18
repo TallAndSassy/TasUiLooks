@@ -6,4 +6,4 @@ require_once(base_path('path to here/routes/web.php'));
 
 
 
-Route::get('/grok/tas/ui-looks',function () {return view('tas-ui-looks::groks/index');})->name('grok.tas-ui-looks');
+Route::get('/grok/tassy/looks',function () {return view('tassy::groks_looks/index');})->name('grok.tassy.looks');

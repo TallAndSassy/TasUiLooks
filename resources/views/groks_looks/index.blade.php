@@ -1,6 +1,6 @@
 <x-app-layout>
     @php
-    $pathOffRouteToGroks = 'packages/TallAndSassy/TasUiLooks/resources/views/groks';
+    $pathOffRouteToGroks = 'packages/TallAndSassy/TasUiLooks/resources/views/groks_looks';
 
     @endphp
     <x-slot name="header">
@@ -15,11 +15,11 @@
         <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                             <x-grok::action-section title="Titles">
                                 <x-slot name="description">
-                                    @include('tas-ui-looks::/groks/title/description',['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/title/description',['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
 
                                 <x-slot name="content">
-                                    @include('tas-ui-looks::/groks/title/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/title/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
                             </x-grok::action-section>
 
@@ -28,11 +28,11 @@
 
                             <x-grok::action-section title="Parenthetical">
                                 <x-slot name="description">
-                                    @include('tas-ui-looks::/groks/parenthetical/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/parenthetical/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
 
                                 <x-slot name="content">
-                                    @include('tas-ui-looks::/groks/parenthetical/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/parenthetical/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
                             </x-grok::action-section>
 
@@ -44,11 +44,11 @@
                                 </x-slot>
 
                                 <x-slot name="description">
-                                    @include('tas-ui-looks::/groks/lists/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/lists/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
 
                                 <x-slot name="content">
-                                    @include('tas-ui-looks::/groks/lists/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/lists/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
                             </x-grok::action-section>
 
@@ -65,10 +65,10 @@
                                 </x-slot>
 
                                 <x-slot name="description">
-                                    @include('tas-ui-looks::/groks/links-to/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/links-to/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
                                 <x-slot name="content">
-                                    @include('tas-ui-looks::/groks/links-to/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/links-to/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
 
 
@@ -84,10 +84,10 @@
                                 </x-slot>
 
                                 <x-slot name="description">
-                                    @include('tas-ui-looks::groks/icons/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/icons/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
                                 <x-slot name="content">
-                                    @include('tas-ui-looks::groks/icons/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/icons/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
 
                             </x-grok::action-section>
@@ -99,11 +99,11 @@
                                 </x-slot>
 
                                 <x-slot name="description">
-                                    @include('tas-ui-looks::/groks/labeled-value/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/labeled-value/description', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
 
                                 <x-slot name="content">
-                                    @include('tas-ui-looks::/groks/labeled-value/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
+                                    @include('tassy::/groks_looks/labeled-value/content', ['pathOffRouteToGroks'=>$pathOffRouteToGroks])
                                 </x-slot>
                             </x-grok::action-section>
 
@@ -117,7 +117,7 @@
 
     <x-jet-section-border/>
 
-            <x-tas-ui-looks::title>TODO</x-tas-ui-looks::title>
+            <x-tassy::title>TODO</x-tassy::title>
 
 
                 <pre>

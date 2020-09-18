@@ -13,7 +13,7 @@ class TasUiLooksServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'tas-ui-looks');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'tassy');
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'tallandsassy');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'tallandsassy');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');

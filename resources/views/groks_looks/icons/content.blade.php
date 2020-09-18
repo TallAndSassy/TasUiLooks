@@ -2,14 +2,14 @@
 $slug = "icons";
 $pathOffRouteToSample = $pathOffRouteToGroks."/$slug/sample.blade.php";
 @endphp
-@include("tas-ui-looks::groks/$slug/sample")
+@include("tassy::/groks_looks/$slug/sample")
 <x-grok::tas-sample-from-file language="html" path="{{$pathOffRouteToSample}}"/>
 
 
-<x-tas-ui-looks::title>Usage</x-tas-ui-looks::title>
+<x-tassy::title>Usage</x-tassy::title>
 <x-grok::tas-sample-from-file language="html" path="resources/views/tas_sample/icons/home.blade.php"/>
 
-<x-tas-ui-looks::title>Installation</x-tas-ui-looks::title>
+<x-tassy::title>Installation</x-tassy::title>
 <pre>
 You can show a 'home' icon by doing 'x-heroicon-o-home'
 Src: https://github.com/blade-ui-kit/blade-icons
@@ -21,7 +21,7 @@ But, instructions are unclear.
     'path' => 'vendor/blade-ui-kit/blade-heroicons/resources/svg',
 </pre>
 
-<x-tas-ui-looks::title>Find icons</x-tas-ui-looks::title>
+<x-tassy::title>Find icons</x-tassy::title>
 Looking for an icon? Try this
-<x-tas-ui-looks::link-to href="https://blade-ui-kit.com/blade-icons#search" enum-location="outside" enum-sandbox="tab">https://blade-ui-kit.com/blade-icons#search</x-tas-ui-looks::link-to>
+<x-tassy::link-to href="https://blade-ui-kit.com/blade-icons#search" enum-location="outside" enum-sandbox="tab">https://blade-ui-kit.com/blade-icons#search</x-tassy::link-to>
 

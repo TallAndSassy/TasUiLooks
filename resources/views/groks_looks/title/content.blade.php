@@ -1,9 +1,7 @@
-
 @php
-$slug = "parenthetical";
+$slug = "title";
 $pathOffRouteToSample = $pathOffRouteToGroks."/$slug/sample.blade.php";
 @endphp
-@include("tas-ui-looks::groks/$slug/sample")
+@include("tassy::/groks_looks/$slug/sample")
 <x-grok::tas-sample-from-file language="html" path="{{$pathOffRouteToSample}}"/>
-
 
