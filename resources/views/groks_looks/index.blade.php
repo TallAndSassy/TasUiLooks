@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-grok::grok_page_layout>
     @php
     $pathOffRouteToGroks = 'packages/TallAndSassy/TasUiLooks/resources/views/groks_looks';
 
@@ -264,4 +264,4 @@
         </div>
     </div>
     </div>
-</x-app-layout>
+</x-grok::grok_page_layout>

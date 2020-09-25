@@ -15,8 +15,13 @@ Via Composer
 $ composer require tallandsassy/tasuilooks
 ```
 
-## Usage
-
+``` bash 
+php artisan vendor:publish --tag="ElegantTechnologies"
+```
+## Usage Examples
+``` 
+Visit: http://localhost/grok/tassy/groks_looks
+```
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
